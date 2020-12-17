@@ -1,0 +1,53 @@
+li {
+  list-style-type: none;
+}
+
+.p {
+  font-size: 12px;
+}
+.recipecontainer {
+  margin-top: 3vw;
+  z-index: 1000;
+  padding-bottom: 5vw;
+  background-color: beige;
+}
+.reccont {
+  z-index: 1000;
+  margin-top: 10vw;
+}
+.image {
+  border: 0.2px solid gold;
+  width: 50vw;
+  max-width: 400px;
+  border-radius: 1%;
+}
+
+h3 {
+  color: brown;
+  text-shadow: 1px 1px 3px grey;
+  font-family: "charmonmanbold";
+  font-size: 4vw;
+  margin-bottom: -2vw;
+}
+li {
+  color: #4f2926;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6vw;
+  text-align: left;
+  margin-left: 16vw;
+}
+.recipecontainer:nth-child(odd) {
+  background-color: white;
+}
+.p:nth-child(even) {
+  background-color: white;
+}
+.p {
+  background: orange;
+  color: #4f2926;
+  padding: 1vw 3vw;
+  margin-left: calc(-100px + 32vw);
+  margin-top: calc(-100px + 26vw);
+  position: absolute;
+  font-size:  calc(4px + 0.6vw);
+}

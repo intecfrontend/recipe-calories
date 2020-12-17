@@ -1,0 +1,115 @@
+.body {
+  background: rgba(243, 184, 5, 0.4);
+}
+.stainbg {
+  position: absolute;
+  width: 70vw;
+}
+.stainwrapper {
+  margin-top: -20vw;
+  margin-left: 15vw;
+  position: absolute;
+}
+.bg-text {
+  font-size: 12vw;
+  position: absolute;
+  text-align: center;
+  top: 16vw;
+  left: 23vw;
+  text-shadow: 3px 3px 7px white;
+}
+.bg {
+  width: 100vw;
+  background: none;
+}
+.bg-text {
+  color: #4f2926;
+  font-family: times;
+}
+.ordershad {
+  -webkit-box-shadow: 10px 10px 5px -8px rgba(122, 82, 22, 1);
+  -moz-box-shadow: 10px 10px 5px -8px rgba(122, 82, 22, 1);
+  box-shadow: 10px 10px 5px -8px rgba(122, 82, 22, 1);
+}
+.ordershad:hover {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #4f2926;
+}
+
+.st-text {
+  font-size: 4vw;
+  margin: -4vw;
+  text-shadow: 1px 1px 3px white;
+  font-family: "charmonmanbold";
+  color: darkred;
+  z-index: 10;
+  margin-left: 0.5vw;
+}
+
+@font-face {
+  font-family: "charmonmanbold";
+  src: url("charmonman-bold-webfont.woff2") format("woff2"),
+    url("charmonman-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.inputcontainer {
+  position: absolute;
+  margin-top: -11vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  z-index: 50;
+  background: none;
+  height: 20vw;
+  margin-left: 20vw;
+  opacity: 0.9;
+}
+.whatinput {
+  width: 59vw;
+  z-index: 100;
+  height: 3vw;
+  text-align: center;
+  margin: 0px;
+  font-size: 1.6vw;
+}
+.whatmininput {
+  height: 3vw;
+  text-align: center;
+  margin: 0px;
+  width: 28.15vw;
+  font-size: 1.6vw;
+}
+
+#left {
+  margin-right: 1vw;
+  flex-grow: 2;
+  margin-top: 2vw;
+}
+
+#right {
+  margin-left: 1vw;
+  margin-top: 2vw;
+  flex-grow: 1;
+}
+
+.inputwrapper {
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+}
+.order {
+  background: darkorange;
+  width: 59.7vw;
+  height: 3.6vw;
+  z-index: 100;
+  margin-top: 2vw;
+  color: white;
+  font-size: 1.6vw;
+  border-radius: 5%;
+}
+
